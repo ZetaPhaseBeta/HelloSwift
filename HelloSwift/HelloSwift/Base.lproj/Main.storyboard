@@ -18,13 +18,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCN-R9-RH5">
-                                <rect key="frame" x="16" y="286" width="343" height="94"/>
+                                <rect key="frame" x="16" y="224" width="343" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98424340165128577" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="👻"/>
                                 <connections>
-                                    <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="qpP-Fb-595"/>
+                                    <action selector="snapMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="ta3-Cn-kQ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAf-qx-hdi">
+                                <rect key="frame" x="16" y="342" width="343" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.054259974590685878" green="1" blue="0.98726232996096275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🤖"/>
+                                <connections>
+                                    <action selector="robotMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="GaL-dI-jdk"/>
+                                    <action selector="snapMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="LaA-uq-qT7"/>
                                 </connections>
                             </button>
                         </subviews>
